@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.container {
+  width: 410px;
+  height: 490px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 6px;
+  background-color: #4d4d4d;
+}
+/* ligon */
+.login {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 7px;
+  background-color: white;
+}
+.login_or {
+  position: relative;
+  border-bottom: 1px solid #cacaca;
+}
+.login_or p {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.login_or .img_close{
+    width: 13px;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  cursor: pointer;
+  color: #cacaca;
+}
+.login_center {
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+.login_center h5:hover {
+  color: #2f80ed;
+  transition: color 0.5s;
+}
+.login_center h5 {
+  color: #a7a7a7;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 13px 0px;
+}
+.img_check {
+    width: 18px;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.login_center p >a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #a7a7a7;
+    margin-left: 5px;
+}
+.login_center a:hover {
+  color: #2f80ed;
+  transition: color 0.5s;
+}
+.login_center :nth-child(4) {
+    text-align: center;
+  font-size: 0.9rem;
+  color: #a7a7a7;
+}
+.login_center span {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #a7a7a7;
+  position: relative;
+}
+.login_center span::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 44%;
+  height: 1px;
+  background-color: #cacaca;
+}
+.login_center span::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 44%;
+  height: 1px;
+  background-color: #cacaca;
+}
+.login-btn {
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+  color: white;
+  background-color: #2f80ed;
+}
+.login_btns {
+  margin: 10px 10px 10px 10px;
+}
+a.btn {
+  text-decoration: none;
+  display: block;
+  border: 1px solid;
+  text-align: center;
+  padding: 8px;
+  margin: 9px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  position: relative;
+}
+a:visited{
+    color:rgb(20, 20, 20);
+}
+a.btn:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 2px;
+}
+a.btn1 {
+  border: 1px solid gray;
+}
+a.btn1::before {
+  content: url(images/icon_google.png);
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+a.btn2 {
+  border: 1px solid #3489f8;
+}
+a.btn2::before {
+  content: url(images/icon_facebook.png);
+  position: absolute;
+  top: 7px;
+  left: 13px;
+}
+a.btn3 {
+  border: 1px solid #05c46b;
+}
+a.btn3::before {
+  content: url(images/icon_naver.png);
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+a.btn4 {
+  border: 1px solid #ffd32a;
+}
+a.btn4::before {
+  content: url(images/icon_kakao.png);
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
